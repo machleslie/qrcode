@@ -1,0 +1,51 @@
+body{
+    background: #D5E1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    border-radius: 20px;
+    background: white;
+    padding: 20px;
+    width: 400px;
+     margin-top: 2%;
+    /* margin-bottom: 20%; */ 
+   
+}
+@media screen and (max-width: 480px) {
+    .main {
+      margin-left:5%;
+      margin-right:5% ;
+    }
+  }
+.qr{
+    background: blue;
+    border-radius: 20px;
+    padding: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_title{
+    text-align: center;
+    color: #1F314F;
+    flex-wrap: wrap;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+
+    /* margin-right: 5%; */
+}
+
+
+.text_desc{
+    color: #7D889E;
+    text-align: center;
+    flex-wrap: wrap;
+    font-family: "Outfit";
+    font-optical-sizing: auto;
+    font-weight: 350;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+
+}
